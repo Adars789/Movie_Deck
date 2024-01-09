@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    /* margin: 1px;
+    padding: 1px; */
+    border: 6px solid cadetblue;
+    border-radius: 10px double cadetblue;
+    background-color:cadetblue;
+    
+  }
+  .logo{
+    /* background-color: white; */
+    color:black;
+    cursor: pointer;
+  }
+  
+  .movie-list{
+    border: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(234, 100, 100, 0.1);
+  }
+  .pagination button:first-child , 
+  .pagination button:last-child
+  {  
+    background-color: bisque;
+    border: 5px;
+    border-radius: 5px double bisque ;
+    cursor: pointer;
+    /* margin: 2px; */
+    /* padding-top: 3px; */
+  }
+
+header {
+    background-color:cadetblue;
+    color:black;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    /* border: 5px solid black; */
+  }
+  
+  button{
+    background-color:chocolate;
+    border: 1px solid black;
+    border-radius: 3px solid black;
+    cursor: pointer;
+  }
+.search-bar input {
+    padding: 8px;
+    margin-right: 15px;
+    border: 2px solid black;
+    border-radius: 3px solid black;
+    cursor: pointer;
+    background-color:bisque;
+  }
+   
+   
+  footer {
+    background-color:cadetblue;
+    color:black;
+    text-align: center;
+    padding: 1px;
+    stroke-width: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    /* border: 5px solid black; */
+  }
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 25px;
+    background-color:bisque;
+    border: 5px solid bisque;
+    border-radius: 8px solid cadetblue;
+    /* cursor: pointer; */
+  }
+  
+
+  .movie-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.10);
+    padding: 10px;
+    transition: transform 0.5s ease-in-out;
+    background-color:whitesmoke;
+    cursor: pointer;
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-8px);
+    background-color:cadetblue;
+    cursor: pointer;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .movie-card h5 {
+    font-size: 11px;
+    margin-bottom: 3px;
+    cursor: pointer;
+  }
+  
+  .movie-card p {
+    font-size: 12px;
+    margin-bottom: 3px;
+    cursor: pointer;
+  }
+  
+  .favorite-btn {
+    padding: 8px 15px;
+    margin-top: 10px;
+    border: 5px;
+    border-radius: 6px solid black;
+    cursor: pointer;
+    background-color:chocolate;
+    color:black;
+    transition: background-color 0.4s ease-in-out;
+  }
+  
+  .favorite-btn:hover {
+    background-color:brown;
+    cursor: pointer;
+  }
+  
+  .favorite-btn.active {
+    background-color:coral;
+    cursor: pointer;
+  }
+ 
+  

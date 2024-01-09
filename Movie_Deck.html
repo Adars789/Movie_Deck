@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Deck</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">Movie Deck</a>
+    <div class="search-bar">
+      <input type="text" placeholder="Search by name…" autocomplete="off" id="searchInput">
+      <button onclick="searchMovies()">Search</button>
+    </div>
+    <div class="sorting-options">
+      <button onclick="sortByDate()">Sort By Date - Oldest To Latest</button>
+      <button onclick="sortByRating()">Sort By Rating - Least To Most</button>
+    </div>
+    <div class="tabs">
+      <button class="active-tab" onclick="showAllMovies()">All</button>
+      <button onclick="showFavoriteMovies()">Favorites</button>
+      <!-- Inside the movie card creation in renderMovieCards function
+      <button class="favorite-btn" onclick="toggleFavorite('${title}')">Remove from Favorites</button> -->
+    </div>
+  </header>
+  
+  <main>
+        <div class="movie-list">
+      <!-- Movie cards will be dynamically generated here -->
+        </div>
+
+      <div class="pagination">
+        <button class="pagination button:first-child"  onclick="previousPage()">Previous</button>
+        <span id="currentPage"></span>
+        <button class="pagination button:last-child" onclick="nextPage()">Next</button>
+      </div>
+  </main>
+  
+  <footer>
+    <p class="movie_deck">© 2023 Movie Deck</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
