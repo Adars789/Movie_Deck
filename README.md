@@ -1,6 +1,6 @@
 **Movie Deck**
 
-**Project Link**:- movie-deck-j3wtg5rix-adars789s-projects.vercel.app
+**Project Link**:- https://movie-deck-beryl.vercel.app/#
 
 The **"Movie Deck"** web page is a dynamic and user-friendly platform that leverages the power of the movieDB API to display a curated list of top-rated movies. The page features an intuitive interface with a header, search bar, sorting options, tabs, movie list pagination, and a footer.
 
